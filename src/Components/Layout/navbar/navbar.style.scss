@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #004f44;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:10px 0;
+    .navbar_menu{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        align-self: center;
+        gap:30px;
+        li{
+            list-style: none;
+        }
+        a{ 
+            text-decoration: none;
+            color:#ffffff;
+            cursor: pointer;
+        }
+    }
+    .container-icon{
+        align-self: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: center;
+        gap:20px;
+        padding: 0  35px;
+        cursor: pointer;
+    }
+
+}

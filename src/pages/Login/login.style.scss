@@ -1,0 +1,43 @@
+.container__login{
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px 10px;
+    width:300px;
+    height:200px;
+    border:1px solid #004f44;
+    border-radius: 5px;
+    background-color: #fff;
+    color:#004f44;
+    .form__login{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .userName , .passWord{
+        display:flex;
+        justify-content: flex-start;
+        gap:15px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        input{
+            width:180px;
+            padding:2px 0 ;
+            border:1.5px solid #004f44;
+            border-radius: 5px;
+        }
+    }
+    
+    .btn_login{
+        padding:7px 30px;
+        background-color: #004f44;
+        color:#fff;
+        border:none;
+        border-radius: 6px;
+        margin-top: 60px;
+        align-self:center ;
+    }
+}
+

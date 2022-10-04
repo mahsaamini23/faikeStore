@@ -1,0 +1,33 @@
+.card_list{
+    
+    .cardList__header{
+        display:flex;
+        justify-content: space-between;
+        padding:10px ;
+        h2{
+            font-size: 14px;
+            color:#004f44;
+        }
+        a{
+            text-decoration: none;
+            font-size: 12px;
+            color:#004f44;
+            font-weight: 600;
+            &::after{
+                content:">";
+            }
+        }
+    }
+    .cardList__content{
+        display:flex;
+        justify-content: center;
+        gap:10px;
+        padding:10px 0;
+        overflow-x:auto;
+        direction: ltr;
+        &>*{
+            flex-shrink: 0;
+        }
+    }
+    
+}

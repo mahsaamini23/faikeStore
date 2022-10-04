@@ -1,0 +1,11 @@
+.btn_buy{
+    color:#004f44;
+    background-color: #fff;
+    border: 1px solid #004f44;
+    padding: 5px 20px;
+    cursor: pointer;
+    &.primary{
+        background-color: #004f44;
+        color:#fff
+    }
+}
